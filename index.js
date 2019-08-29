@@ -97,7 +97,7 @@ if (parts[0] == '!host') {
            .setTitle(`${bot.user.username}'s Host Status`)
            .setColor(3066993)
            .addField("✅", "I'm currently hosted 24/7")
-           .addField("I'm hosted from **Glitch**", "https://glitch.com")
+           .addField("I'm hosted from **Heroku**", "https://heroku.com")
            .setFooter(bot.user.username, bot.user.displayAvatarURL)
            message.channel.send(hembed);
            message.react("✅");
@@ -115,7 +115,7 @@ if(parts[0] == '!botinfo' || parts[0] == '!bi'){
     .addField("**Bot Version:**", Version, true)
     .addField("**Bot ID:**", bot.user.id, true)
     .addField("**Bot Discriminator:**", bot.user.discriminator, true)
-    .addField("**Web Dashboard**\nWork In Progress", dashboard, true)
+ //   .addField("**Web Dashboard**\nWork In Progress", dashboard, true)
     .setFooter(bot.user.username, bot.user.displayAvatarURL)
     message.channel.send(biembed);
 }
