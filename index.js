@@ -33,7 +33,7 @@ bot.on('message', (message) => {
 if (parts[0] == '!hello'){
         message.reply("HI!");
 if(parts[0] != "!hello"){
-        message.reply("Ooops.. Maybe made a mistake? Check **!help**";)
+        message.reply("Ooops.. Maybe made a mistake? Check **!help**");
    }    
 }
     if (parts[0] == '!role'){
