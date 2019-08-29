@@ -30,7 +30,12 @@ const bot = new Discord.Client();
 
 bot.on('message', (message) => {
     const parts = message.content.split(' ');
-
+if (parts[0] == '!hello'){
+        message.reply("HI!");
+if(parts[0] != "!hello"){
+        message.reply("Ooops.. Maybe made a mistake? Check **!help**";)
+   }    
+}
     if (parts[0] == '!role'){
 
         if(parts[1] == 'red') {
