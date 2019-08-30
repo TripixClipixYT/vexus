@@ -1,16 +1,3 @@
-// const http = require('http');
-// const express = require('express');
-// const app = express();
-// app.get("/", (request, response) => {
-//   console.log(Date.now() + " Ping Received");
-//   response.sendStatus(200);
-// });
-// app.listen(process.env.PORT);
-// setInterval(() => {
-//   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-// }, 280000); 
-// // var keepAlive = require("node-keepalive");
-// // keepAlive();
 const Discord = require('discord.js');
 const token = 'process.env.TOKEN'
 
@@ -222,23 +209,6 @@ message.channel.send(aEmbed)
 if(parts[0] == '!website'){
       message.reply('https://role-bot2.glitch.me')
 }
-  const channel = bot.channels.get("571698435317825536");
-  if(parts[0]=='!join'){
-  if (!channel) return console.error("The channel does not exist!");
-  channel.join()
-    // Yay, it worked! 
-    console.log("Successfully connected.");
-  }
-   if(parts[0] == '!stopstream') {
-        bot.leaveVoiceChannel("571698435317825536");
-        message.channel.send(`Thanks for tuning in!`); }
-    // Status
-//     let statuses =['!help to see all commands | Site Coming Soon']
-
-//     setInterval(function(){
-//       let status = statuses[Math.floor(Math.random()* statuses.length)];
-//       bot.user.setActivity(status, {type: 'Playing'});
-//     }, 120000)
 });
 
 console.log("Role Bot is online")
