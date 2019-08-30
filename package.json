@@ -1,14 +1,25 @@
 {
-  "name": "role-bot",
-  "version": "0.1.2",
-  "description": "A simple color role bot",
+
+  "name": "Vexus",
+
+  "description": "My bot",
+
+  "version": "0.9.20",
+
   "main": "index.js",
+
   "scripts": {
-    "test": "!hello"
+
+    "start": "node index.js"
+
   },
-  "author": "me",
-  "license": "ISC",
+
   "dependencies": {
-    "discord.js": "^11.5.1"
+
+    "discord.js": "11.1.0",
+
+    "request": "2.81.0"
+
   }
+
 }
