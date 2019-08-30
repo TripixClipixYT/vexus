@@ -239,7 +239,7 @@ if(parts[0] == '!website'){
 //       let status = statuses[Math.floor(Math.random()* statuses.length)];
 //       bot.user.setActivity(status, {type: 'Playing'});
 //     }, 120000)
-// });
+});
 
 console.log("Role Bot is online")
 bot.login(process.env.TOKEN);
