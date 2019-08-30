@@ -210,7 +210,7 @@ if(parts[0] == '!website'){
       message.reply('https://role-bot2.glitch.me')
 }
     // Status
-    let statuses =['!role <color in server> | Site Coming Soon', `${bot.users.size} Users and ${bot.guilds.size} Servers`]
+    let statuses =[`${bot.users.size} Users and ${bot.guilds.size} Servers`]
 
     setInterval(function(){
       let status = statuses[Math.floor(Math.random()* statuses.length)];
