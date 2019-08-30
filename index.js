@@ -233,13 +233,13 @@ if(parts[0] == '!website'){
         bot.leaveVoiceChannel("571698435317825536");
         message.channel.send(`Thanks for tuning in!`); }
     // Status
-    let statuses =['!help to see all commands | Site Coming Soon']
+//     let statuses =['!help to see all commands | Site Coming Soon']
 
-    setInterval(function(){
-      let status = statuses[Math.floor(Math.random()* statuses.length)];
-      bot.user.setActivity(status, {type: 'Playing'});
-    }, 120000)
-});
+//     setInterval(function(){
+//       let status = statuses[Math.floor(Math.random()* statuses.length)];
+//       bot.user.setActivity(status, {type: 'Playing'});
+//     }, 120000)
+// });
 
 console.log("Role Bot is online")
 bot.login(process.env.TOKEN);
